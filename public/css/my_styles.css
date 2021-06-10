@@ -1,0 +1,88 @@
+.upper-case{
+    text-transform: uppercase;
+}
+
+header, footer{
+    width: 100%;
+    height: auto;
+    background: #343a40;
+    margin-bottom: 2%;
+}
+
+footer{
+    height: 40px;
+    position: relative;
+    bottom: 0;
+}
+
+.header nav .navbar-nav a{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.articles{
+    margin: 20px 0;
+}
+.item .card{
+    min-height: 500px;
+}
+
+.item img.card-img-top {
+    max-width: 300px;
+}
+
+.item .card a.btn.btn-primary {
+    position: absolute;
+    bottom: 7px;
+}
+
+.article h1, .article h5{
+    width: 100%;
+    height: auto;
+}
+
+.article .image img{
+    width: 500px;
+    height: auto;
+    float: left;
+    padding-right: 21px;
+}
+
+.article .image p{
+    padding: 0 0 10px 10px;
+    font-size: 1.5rem;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 320px) {
+    }
+}
+@media (min-width: 375px) {
+    
+}
+@media (min-width: 425px) {
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1100px) {
+}
+
+@media (min-width: 1210px) {
+}
+@media (min-width: 1441px) {
+
+}
