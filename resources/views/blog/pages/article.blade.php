@@ -13,7 +13,9 @@
   <div class="container">
     <div class="row article">
       <h1>{{ $article->title }}</h1>
-      <h5>{{ $article->formatDate() }}</h5>
+      @if(!empty($article->date)
+        <h5>{{ $article->formatDate() }}</h5>
+      @endif
       <div class="image">
         <img src="{{ asset('uploads/' . $article->image) }}" alt="">
         {!! $article->text !!}
